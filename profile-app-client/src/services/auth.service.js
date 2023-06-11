@@ -23,6 +23,15 @@ class AuthService{
     verify = () => {
         return this.api.get('/auth/verify');
     }
+    getCurrentUser = () => {
+        return this.api.get('/api/user');
+    }
+    editUser = (requestBody) => {
+        return this.api.put('/api/user', requestBody);
+    }
+    uploadPhoto = (reqestBody) => {
+        return this.api.post('/api/upload', reqestBody);
+    }
 }
 
 const authService = new AuthService();

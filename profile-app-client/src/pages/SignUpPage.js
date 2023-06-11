@@ -36,7 +36,7 @@ export function SignUpPage(){
                 <label  htmlFor="">Username</label>
                 <input onChange={handleInputChange} name="username" className="form-control" type="text" />
                 <label htmlFor="">Password</label>
-                <input onChange={handleInputChange} name="password" className="form-control" type="text" />
+                <input onChange={handleInputChange} name="password" className="form-control" type="password" />
                 <label htmlFor="">Campus</label>
                 <input onChange={handleInputChange} name="campus" className="form-control" type="text" />
                 <label htmlFor="">Course</label>
