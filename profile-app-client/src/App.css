@@ -31,3 +31,17 @@
   border-radius: 0.3rem;
   border: 0;
 }
+
+.btn-white{
+  background-color: white;
+  font-size:1.2rem !important;
+  font-weight: bold !important;
+  width:18rem !important;
+  height:3rem;
+  border-radius: 0.3rem;
+  border: 0;
+}
+
+.form-container{
+  width:300px !important;
+}
