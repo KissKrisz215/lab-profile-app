@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* border:1px solid red; */
+}
+
+.HomePage{
+  background-color: #C1DFC4;
+  height: 100vh;
+}
+
+.text-green{
+  color:#638165;
+}
+
+.form-card{
+  min-height:550px;
+  min-width:800px;
+  background-image: url("../../assets/oval-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.btn-green{
+  background-color: #C1DFC4 !important;
+  font-size:1.2rem !important;
+  font-weight: bold !important;
+  width:18rem !important;
+  height:3rem;
+  border-radius: 0.3rem;
+  border: 0;
+}
